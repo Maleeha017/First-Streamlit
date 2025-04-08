@@ -9,3 +9,6 @@ if st.button("Load Data"):
         if df is not None:
             st.write("Data loaded successfully!")
             st.dataframe(df)
+
+api_key = st.secrets["alpha_vantage"]["api_key"]
+st.write("API Key:", api_key)
