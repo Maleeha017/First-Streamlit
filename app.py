@@ -11,4 +11,3 @@ if st.button("Load Data"):
             st.dataframe(df)
 
 api_key = st.secrets["alpha_vantage"]["api_key"]
-st.write("API Key:", api_key)
